@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 12px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  flex-basis: 12%;
+  min-height: 25vh;
+  color: white;
+  border-radius: 10px;
+}
+.h2 p {
+  /* margin-bottom: 5px; */
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+  max-width: 130px;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfaf6;
+}
+.contentOne {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2px;
+background-color: black;
+margin-top: 2px;
+}
+button {
+  border: none;
+}
+.ac {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.plusORminus {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f78446;
+  color: white;
+}
+
+.percentage {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f78446;
+  color: white;
+}
+
+.division {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f78446;
+  color: white;
+}
+
+.contentTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: black;
+  margin-top: 2px;
+  }
+  .seven {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+  }
+
+  .eight {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+  }
+
+  .nine {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+  }
+
+  .multiply {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f78446;
+    color: white;
+  }
+
+  .contentThree {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: black;
+  margin-top: 2px;
+  }
+  .four {
+    width: 32px;
+  height: 37px;
+  border-radius: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfaf6;
+    color: black;
+  }
+
+  .five {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfaf6;
+    color: black;
+  }
+
+  .six {
+    width: 32px;
+  height: 37px;
+  border-radius: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfaf6;
+    color: black;
+  }
+  .minus {
+    width: 32px;
+    height: 37px;
+    border-radius: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f78446;
+    color: white;
+  }
+
+  .contentFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: black;
+    margin-top: 2px;
+    }
+
+.one {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.two {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.three {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.plus {
+  width: 32px;
+  height: 37px;
+  border-radius: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f78446;
+  color: white;
+}
+
+.contentFive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  margin: 3px;
+}
+.zero {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}
+.equalsTo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf6;
+  color: black;
+}

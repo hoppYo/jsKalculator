@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="h2">
+        <p>Calculator</p>
+      </div>
+
+      <div class="input">
+        <input class="display" id="display" disabled>
+      </div>
+
+      <div class="contentOne">
+        <button class="ac" onclick="clearDisplay()">
+          <p>AC</p>
+        </button>
+        <button class="plusORminus" onclick="appendValue('+/-')">
+          <p>+/-</p>
+        </button>
+        <button class="percentage" onclick="appendValue('%')">
+          <p>%</p>
+        </button>
+        <button class="division" onclick="appendValue('/')">
+          <p>/</p>
+        </button>
+      </div>
+
+      <div class="contentTwo">
+      <button class="seven" onclick="appendValue('7')">
+        <p>7</p>
+      </button>
+      <button class="eight" onclick="appendValue('8')">
+        <p>8</p>
+      </button>
+      <button class="nine" onclick="appendValue('9')">
+        <p>9</p>
+      </button>
+      <button class="multiply" onclick="appendValue('*')">
+        <p>*</p>
+      </button>
+    </div>
+
+    <div class="contentThree">
+      <button class="four" onclick="appendValue('4')">
+        <p>4</p>
+      </button>
+      <button class="five" onclick="appendValue('5')">
+        <p>5</p>
+      </button>
+      <button class="six" onclick="appendValue('6')">
+        <p>6</p>
+      </button>
+      <button class="minus" onclick="appendValue('-')">
+        <p>-</p>
+      </button>
+    </div>
+
+    <div class="contentFour">
+      <button class="one" onclick="appendValue('1')">
+        <p>1</p>
+      </button>
+      <button class="two" onclick="appendValue('2')">
+        <p>2</p>
+      </button>
+      <button class="three" onclick="appendValue('3')">
+        <p>3</p>
+      </button>
+      <button class="plus" onclick="appendValue('+')">
+        <p>+</p>
+      </button>
+    </div>
+
+    <div class="contentFive">
+      <button class="zero" onclick="appendValue('0')">
+        <p>0</p>
+      </button>
+      <button class="dot" onclick="appendValue('.')">
+        <p>.</p>
+      </button>
+      <button class="equalsTo" onclick="calculate()">
+        <p>=</p>
+      </button>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
